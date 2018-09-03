@@ -1,83 +1,27 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card{
-    box-shadow: 0  4px 8px 0 rgba(0, 0, 0, .12), 0  4px 8px 0 rgba(0, 0, 0, .08);
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 4px 8px 0 rgba(0, 0, 0, .08);
     width: 475px;
     height: 258px;
-    display: flex;
-    border-radius: 10px;
 }
+
 .card-left {
     background: linear-gradient(to bottom, #21c8f6, #637bff);
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    border-radius: 10px;
 }
 
-.card-left, .card-right {
-    padding: 20px;
-}
-
-card-right {
-    color: #888;
-    display: flex;
-    flex-direction: column;
-}
-.card-excerpt{
-    flex: 1;
-}
-
-.card-title{
-    color: #888;
-    font-size: 1.7em;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.card-title > a{
+.text-inherit {
     color: inherit;
-    text-decoration: none;
 }
 
-.card-meta > div:first-child{
-    margin-left: 1em;
-}
-
-.card-meta {
-    display: flex;
-}
-
-.car-meta > div {
-    display: flex;
-    align-items: center;
-}
-
-.card-meta > div > img {
-    margin-right: 8px;
-}
-
-.card-difficulty{
-    font-size: 0.8em;
+.card-meta>div>img {
+    /* Added as of custom image which was larger size */
+    height: 18px;
 }
 
 .card-skill-button {
     background: rgba(0, 0, 0, .4);
-    color: inherit;
-    font-size: 0.7em;
-    text-decoration: none;
-    padding: 3px 25px;
-    border-radius: 9999px;
 }
